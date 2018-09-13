@@ -4,9 +4,9 @@ Allow arduino's Stream (Serial, EthernetClient, etc) to excute user defined func
 
 ## Function
 
-begin(Serial) // use Serial as an input
+begin(Stream) // use Serial as an input
 
-begin(EthernetClient, Serial)// use EthernetClient as an input, use Serial as debug console
+begin(Stream, Print)// use EthernetClient as an input, use Serial as debug console
 
 addFunction(char c, function foo) // When the chracter c is detected, it will excuted function foo with no parameter and return a string
 
