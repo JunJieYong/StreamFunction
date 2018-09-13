@@ -13,12 +13,20 @@ run() //Excute it at the beginning of the loop
 
 ### Retriving Variable
 
-available() //gets the number of bytes available in the stream.
+available() //gets the number of bytes available in the stream
+
 getByte() //return the data in byte
+
 getChar() //return the data in char
+
 getUInt() //reutrn the data in unsigned int
+
 getInt() //return the data in int
+
 getULong() //reutrn the data in unsigned long
+
 getLong() //reutrn the data in long
+
 getString() //reutrn the data in String
+
 getString(char c) //reutrn the data in String, the function will terminates if the terminator character is detected
